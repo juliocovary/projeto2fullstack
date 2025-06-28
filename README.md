@@ -74,6 +74,8 @@ JWT_SECRET=SUA_CHAVE_SECRETA_SUPER_FORTE
 
 # Sua chave de API obtida no site weatherapi.com
 WEATHER_API_KEY=SUA_CHAVE_DA_API_DE_CLIMA
+
+
 3. Instalar e Executar o Backend
 Abra um terminal na raiz do projeto.
 
@@ -83,6 +85,7 @@ npm install
 # Iniciar o servidor do backend
 npm run dev
 O servidor backend estará rodando em https://localhost:3000.
+
 
 4. Instalar e Executar o Frontend
 Abra um novo terminal.
