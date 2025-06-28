@@ -56,9 +56,8 @@ Uma instância do MongoDB (local ou um URI de conexão do MongoDB Atlas)
 Uma chave de API do WeatherAPI
 
 1. Clonar o Repositório
-Bash
 
-git clone https://github.com/seu-usuario/nome-do-repositorio.git
+git clone https://github.com/juliocovary/projeto2fullstack
 cd nome-do-repositorio
 2. Configurar Variáveis de Ambiente
 Crie um arquivo chamado .env na raiz do projeto. Copie o conteúdo do exemplo abaixo e substitua pelos seus próprios valores.
@@ -78,8 +77,6 @@ WEATHER_API_KEY=SUA_CHAVE_DA_API_DE_CLIMA
 3. Instalar e Executar o Backend
 Abra um terminal na raiz do projeto.
 
-Bash
-
 # Instalar as dependências do backend
 npm install
 
@@ -89,8 +86,6 @@ O servidor backend estará rodando em https://localhost:3000.
 
 4. Instalar e Executar o Frontend
 Abra um novo terminal.
-
-Bash
 
 # Navegar até a pasta do frontend
 cd frontend
@@ -104,8 +99,6 @@ A aplicação estará acessível em http://localhost:5173.
 
 5. (Opcional) Criar um Usuário de Teste
 Para facilitar os testes, você pode usar o script seedUser para criar um usuário padrão no seu banco de dados. Abra um terceiro terminal na raiz do projeto.
-
-Bash
 
 node backend/seedUser.js
 As credenciais do usuário de teste são:
